@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite>
+
+<suite name="API Suite" verbose="1" data-provider-thread-count="1" parallel="classes">
+    <test name="APIs tests" annotations="JDK" preserve-order="true" group-by-instances="true">
+        <parameter name="description"
+                   value="APIs"/>
+        <classes>
+            <class name="APIRunner.APIRunner"/>
+        </classes>
+    </test>
+</suite>

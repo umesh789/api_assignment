@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PublicVariable_Config>
+
+    <!-- Control Execution Variables Start -->
+    <!-- Execution_type :
+    parameters > (API , WEB or MOBILE)
+     -->
+    <PublicVariable name="Execution_type">
+        <name>API</name>
+    </PublicVariable>
+
+    <PublicVariable name="API_Environment">
+        <name>v2</name>
+    </PublicVariable>
+
+    <PublicVariable name="Application_URL">
+        <name></name>
+    </PublicVariable>
+</PublicVariable_Config>
